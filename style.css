@@ -6,6 +6,8 @@ body{
 
 .h1title{
     text-align: center;
+    font-family:"poppins",Arial,sans-serif;
+    font-weight: 400;
 }
 
 .section-form{
@@ -13,12 +15,13 @@ body{
     justify-content: center;
    border-radius:5px; 
    background-color: rgba(27, 27, 50, 0.8);
-   
     margin-left: 20%;
     margin-right: 20%;
-    padding: 40px;
-   
-    
+    padding: 40px;  
+}
+
+.div-name{
+    margin-top: 10px;
 }
 
 .input-form{
@@ -28,13 +31,15 @@ body{
 }
 
 h1{
-font-family: sans-serif;
+    font-family:"poppins",Arial,sans-serif;
+    font-weight: 400;
 }
 
 select{
     width:100%;
     height: 40px;
-    
+    font-family:"poppins",Arial,sans-serif;
+    font-weight: 400;
 }
 
 textarea{
@@ -48,11 +53,12 @@ textarea{
     background-color: green;
     width:100%;
     height: 50px;
-
 }
 
 label{
     font-size: 20px;
+    font-family:"poppins",Arial,sans-serif;
+    font-weight: 400;
 }
  
 .checkbox{
@@ -65,3 +71,12 @@ label{
     height:20px;
 }
 
+div{
+    margin-top: 60px;
+    font-family:"poppins",Arial,sans-serif;
+    font-weight: 400;
+ }
+
+ span{
+    font-size: medium;
+ }
